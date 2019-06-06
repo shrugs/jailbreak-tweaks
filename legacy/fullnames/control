@@ -1,0 +1,9 @@
+Package: com.mattcmultimedia.fullnames
+Name: FullNames
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: show full names
+Maintainer: MattCMultimedia
+Author: MattCMultimedia
+Section: Tweaks

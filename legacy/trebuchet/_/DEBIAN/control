@@ -1,0 +1,10 @@
+Package: com.Shrugs.Trebuchet
+Name: Trebuchet
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Matt Condon
+Author: Matt Condon
+Section: Tweaks
+Version: 0.0.1-30
+Installed-Size: 88

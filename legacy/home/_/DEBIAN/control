@@ -1,0 +1,10 @@
+Package: com.yourcompany.home
+Name: Home
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Matt Condon
+Author: Matt Condon
+Section: Tweaks
+Version: 0.0.1-3
+Installed-Size: 72

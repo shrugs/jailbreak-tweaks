@@ -1,0 +1,10 @@
+Package: com.shrugs.nophantomads
+Name: NoPhantomAds
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Shrugs
+Author: Shrugs
+Section: Tweaks
+Version: 0.0.1-9
+Installed-Size: 72

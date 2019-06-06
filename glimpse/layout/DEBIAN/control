@@ -1,0 +1,9 @@
+Package: com.shrugs.glimpse
+Name: Glimpse
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Glimpse your home screen
+Maintainer: Matt Condon
+Author: Matt Condon & Ben Zweig
+Section: Tweaks

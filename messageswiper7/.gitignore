@@ -1,0 +1,8 @@
+*.deb
+theos
+.theos
+obj
+MobileSMS
+_/Library
+.DS_Store
+WhatsAppHeaders

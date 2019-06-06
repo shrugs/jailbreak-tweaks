@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = GlimpseSettings;
+	cell = PSLinkCell;
+	detail = GlimpseSettingsListController;
+	icon = GlimpseSettings.png;
+	isController = 1;
+	label = GlimpseSettings;
+    };
+}

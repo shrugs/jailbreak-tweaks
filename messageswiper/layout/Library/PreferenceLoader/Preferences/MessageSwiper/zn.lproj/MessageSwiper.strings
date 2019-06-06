@@ -1,0 +1,55 @@
+"Enable MessageSwiper" = "允许MessageSwiper";
+
+"Please Restart Your Messaging App for any Changes To Take Effect." = "请重新启动消息的应用程序的变化.";
+
+"Custom Swipe Settings" = "自定义定义轻扫价值观";
+
+"Enable to use all settings below." = "启用下面工作";
+
+"Flip Swipe Directions" = "翻转轻扫方向";
+
+"Enable Wrap Around" = "启用延续以往";
+
+"Enable Long Swipes" = "启用轻扫长";
+
+"Enable Previews" = "启用预览";
+
+"Hide Back Button" = "隐藏回到按键";
+
+"Update On Send" = "发送更新";
+
+"Known Bug: Flip Switch Directions does not switch the side that the preview animation appears on. The preview text is correct, though." = "已知问题：翻转轻扫方向 不切换预览侧。文字是正确的";
+
+"Short Swipe Distance (in points)" = "轻扫距离短";
+
+"Long Swipe Distance (in points)" = "轻扫距离长";
+
+"If you'd like to donate towards this tweak, I would certainly appreciate it!" = "如果你喜欢的程序，请捐赠。谢谢你。";
+
+"Thanks to Michael P. for beta testing!" = "谢谢 Michael P. 用于测试";
+
+"Turns MessageSwiper On or Off." = "打开或关闭MessageSwiper";
+
+"Makes all of the settings below have an effect. If off, default values are used." = "启用下面工作";
+
+"Normally, swipe right to move up the list and left to go down. This reverses that behavior." = "匝数向左滑动起来向右滑动下来。";
+
+"If you're at the top of the list, you will be able to continue swiping to the right and the next conversation will be the last one in the list. Ditto for bottom -> top." = "继续轻扫底部或顶部";
+
+"Enables and disables long swipe functionality. Long swipe right returns to conversation list and long swipe left sends you to the newest message, which is great for reading a message that you just received." = "长向右滑动列表。刷卡左长：大多数新的对话";
+
+"Enables and disables the preview bubble that shows the next message as you swipe." = "打开或关闭预览图片";
+
+"Shows/Hides the 'messages' button at the top left of the screen when viewing a conversation. Only works if Enable Long Swipes is also ON. This is purely for aesthetics." = "显示或隐藏返回按钮";
+
+"If On, this updates the list of conversations whenever you send a message. Which means after you send a message, you will be magically transported to the top of the list. If off, the list of conversations you swipe through will stay constant until you return to the conversation list." = "更新后的名单发送消息";
+
+"'Points' are essentially pixel values. On non-Retina devices, this translates to exact pixels. On Retina devices, this should be doubled to equate pixels. All iPhones have a width of 320 points, regardless of screen size." = "'点'非视网膜上，视网膜上的两个像素的像素";
+
+"Ditto for above." = "与上述相同";
+
+"Default" = "正常"
+
+"On" = "上";
+
+"Off" = "离";

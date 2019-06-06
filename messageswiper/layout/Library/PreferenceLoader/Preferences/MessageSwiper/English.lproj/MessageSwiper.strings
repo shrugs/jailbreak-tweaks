@@ -1,0 +1,53 @@
+"Enable MessageSwiper" = "Enable MessageSwiper";
+
+"Please Restart Your Messaging App for any Changes To Take Effect." = "Please Restart Your Messaging App for any Changes To Take Effect.";
+
+"Custom Swipe Settings" = "Custom Swipe Settings";
+
+"Enable to use all settings below." = "Enable to use all settings below.";
+
+"Flip Swipe Directions" = "Flip Swipe Directions";
+
+"Enable Wrap Around" = "Enable Wrap Around";
+
+"Enable Long Swipes" = "Enable Long Swipes";
+
+"Enable Previews" = "Enable Previews";
+
+"Hide Back Button" = "Hide Back Button";
+
+"Update On Send" = "Update On Send";
+
+"Known Bug: Flip Switch Directions does not switch the side that the preview animation appears on. The preview text is correct, though." = "Known Bug: Flip Switch Directions does not switch the side that the preview animation appears on. The preview text is correct, though.";
+
+"Short Swipe Distance (in points)" = "Short Swipe Distance (in points)";
+
+"Long Swipe Distance (in points)" = "Long Swipe Distance (in points)";
+
+"If you'd like to donate towards this tweak, I would certainly appreciate it!" = "If you'd like to donate towards this tweak, I would certainly appreciate it!";
+
+"Thanks to Michael P. for beta testing!" = "Thanks to Michael P. for beta testing!";
+
+"Turns MessageSwiper On or Off." = "Turns MessageSwiper On or Off.";
+
+"Makes all of the settings below have an effect. If off, default values are used." = "Makes all of the settings below have an effect. If off, default values are used.";
+
+"Normally, swipe right to move up the list and left to go down. This reverses that behavior." = "Normally, swipe right to move up the list and left to go down. This reverses that behavior.";
+
+"If you're at the top of the list, you will be able to continue swiping to the right and the next conversation will be the last one in the list. Ditto for bottom -> top." = "If you're at the top of the list, you will be able to continue swiping to the right and the next conversation will be the last one in the list. Ditto for bottom -> top.";
+
+"Enables and disables long swipe functionality. Long swipe right returns to conversation list and long swipe left sends you to the newest message, which is great for reading a message that you just received." = "Enables and disables long swipe functionality. Long swipe right returns to conversation list and long swipe left sends you to the newest message, which is great for reading a message that you just received.";
+
+"Enables and disables the preview bubble that shows the next message as you swipe." = "Enables and disables the preview bubble that shows the next message as you swipe.";
+
+"Shows/Hides the 'messages' button at the top left of the screen when viewing a conversation. Only works if Enable Long Swipes is also ON. This is purely for aesthetics." = "Shows/Hides the 'messages' button at the top left of the screen when viewing a conversation. Only works if Enable Long Swipes is also ON. This is purely for aesthetics.";
+
+"If On, this updates the list of conversations whenever you send a message. Which means after you send a message, you will be magically transported to the top of the list. If off, the list of conversations you swipe through will stay constant until you return to the conversation list." = "If On, this updates the list of conversations whenever you send a message. Which means after you send a message, you will be magically transported to the top of the list. If off, the list of conversations you swipe through will stay constant until you return to the conversation list.";
+
+"'Points' are essentially pixel values. On non-Retina devices, this translates to exact pixels. On Retina devices, this should be doubled to equate pixels. All iPhones have a width of 320 points, regardless of screen size." = "'Points' are essentially pixel values. On non-Retina devices, this translates to exact pixels. On Retina devices, this should be doubled to equate pixels. All iPhones have a width of 320 points, regardless of screen size.";
+
+"Ditto for above." = "Ditto for above.";
+
+"On" = "On";
+
+"Off" = "Off";

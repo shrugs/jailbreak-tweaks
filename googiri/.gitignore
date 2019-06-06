@@ -1,0 +1,8 @@
+debs
+_
+obj
+theos
+GoogleHeaders
+.theos/
+SCLAlertView/
+node_modules/

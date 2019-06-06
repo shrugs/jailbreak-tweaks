@@ -1,0 +1,8 @@
+{
+Filter = {
+    Bundles = (
+        "com.apple.chatkit",
+        "net.whatsapp.WhatsApp"
+    );
+};
+}

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>id</key>
+    <string>com.apple.preferences.touch</string>
+    <!-- main tab  -->
+    <key>entry</key>
+    <dict>
+        <key>cell</key>
+        <string>PSLinkCell</string>
+        <key>icon</key>
+        <string>MessageSwiperIcon@2x.png</string>
+        <key>label</key>
+        <string>MessageSwiper</string>
+    </dict>
+    <!-- all the stuff inside of the setting menu -->
+    <key>items</key>
+    <array>
+        <!-- global on/off switch -->
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerText</key>
+        <string>Please Restart Your Messaging App for any Changes To Take Effect.</string>
+    </dict>
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <true/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>globalEnable</string>
+        <key>label</key>
+        <string>Enable MessageSwiper</string>
+    </dict>
+
+
+
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerText</key>
+        <string>Enable to use all settings below.</string>
+    </dict>
+
+    <!-- custom swipe setting enabler -->
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <false/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>customSwipeSettings</string>
+        <key>label</key>
+        <string>Custom Swipe Settings</string>
+
+    </dict>
+
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerText</key>
+        <string>Known Bug: Flip Switch Directions does not switch the side that the preview animation appears on. The preview text is correct, though.</string>
+    </dict>
+    <!-- reverse swipe direction -->
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <false/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>switchShortSwipeDirections</string>
+        <key>label</key>
+        <string>Flip Swipe Directions</string>
+    </dict>
+
+    <!-- wrap around -->
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <false/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>wrapAroundEnabled</string>
+        <key>label</key>
+        <string>Enable Wrap Around</string>
+    </dict>
+
+    <!-- enable long swipes -->
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <true/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>longSwipesEnabled</string>
+        <key>label</key>
+        <string>Enable Long Swipes</string>
+    </dict>
+
+    <!-- enable animations -->
+
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <true/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>enableAnimations</string>
+        <key>label</key>
+        <string>Enable Previews</string>
+    </dict>
+    <!-- show/hide back button -->
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <false/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>hideBackButton</string>
+        <key>label</key>
+        <string>Hide Back Button</string>
+    </dict>
+
+    <!-- update dict all the time or just on viewdidappear -->
+    <dict>
+        <key>cell</key>
+        <string>PSSwitchCell</string>
+        <key>default</key>
+        <true/>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>key</key>
+        <string>updateFrequently</string>
+        <key>label</key>
+        <string>Update On Send</string>
+    </dict>
+
+    <!-- custom swipe distance group -->
+
+
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Swipe DE-Sensitivity</string>
+    </dict>
+    <!-- sensitivity -->
+    <dict>
+        <key>cell</key>
+        <string>PSSliderCell</string>
+        <key>default</key>
+        <real>50</real>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>min</key>
+        <real>0</real>
+        <key>max</key>
+        <real>200</real>
+        <key>showValue</key>
+        <true/>
+        <key>key</key>
+        <string>previewSwipeSensitivity</string>
+    </dict>
+
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+    </dict>
+    <dict>
+        <key>cell</key>
+        <string>PSTitleValueCell</string>
+        <key>label</key>
+        <string>Short Swipe Distance (in points)</string>
+    </dict>
+    <!-- short Swipe Dist cell -->
+    <dict>
+        <key>cell</key>
+        <string>PSSliderCell</string>
+        <key>default</key>
+        <real>40</real>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>min</key>
+        <real>20</real>
+        <key>max</key>
+        <real>150</real>
+        <key>showValue</key>
+        <true/>
+        <key>alternateColors</key>
+        <true/>
+        <key>key</key>
+        <string>shortSwipeDistance</string>
+    </dict>
+
+    <!-- group for long swpie distance -->
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+    </dict>
+
+    <dict>
+        <key>cell</key>
+        <string>PSTitleValueCell</string>
+        <key>label</key>
+        <string>Long Swipe Distance (in points)</string>
+    </dict>
+    <!-- long Swipe Dist cell -->
+    <dict>
+        <key>cell</key>
+        <string>PSSliderCell</string>
+        <key>default</key>
+        <real>220</real>
+        <key>defaults</key>
+        <string>com.mattcmultimedia.messageswiper</string>
+        <key>min</key>
+        <real>150</real>
+        <key>max</key>
+        <real>300</real>
+        <key>showValue</key>
+        <true/>
+        <key>alternateColors</key>
+        <true/>
+        <key>key</key>
+        <string>longSwipeDistance</string>
+    </dict>
+
+<!-- footer -->
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>isStaticText</key>
+        <true/>
+        <key>footerText</key>
+        <string>MattCMultimedia, AKA Shrugs
+If you'd like to donate towards this tweak, I would certainly appreciate it!
+Paypal:
+MattCMultimedia@gmail.com
+
+Huge thanks to briankorteweg for the updated preview image. It looks great!
+
+Thanks to Michael P. for beta testing!</string>
+    </dict>
+    <dict>
+        <key>cell</key>
+        <string>PSTitleValueCell</string>
+        <key>label</key>
+        <string>Message Swiper v3.0.3</string>
+    </dict>
+
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerText</key>
+        <string>
+Enable MessageSwiper:
+Turns MessageSwiper On or Off.
+Default:On
+
+Custom SwipeSettings:
+Makes all of the settings below have an effect. If off, default values are used.
+Default:Off
+
+Flip Swipe Directions:
+Normally, swipe right to move up the list and left to go down. This reverses that behavior.
+Default:Off
+
+Enable Wrap Around:
+If you're at the top of the list, you will be able to continue swiping to the right and the next conversation will be the last one in the list. Ditto for bottom -> top.
+Default:Off
+
+Enable Long Swipes:
+Enables and disables long swipe functionality. Long swipe right returns to conversation list and long swipe left sends you to the newest message, which is great for reading a message that you just received.
+Default:On
+
+Enable Previews:
+Enables and disables the preview bubble that shows the next message as you swipe.
+Default:On
+
+Hide Back Button:
+Shows/Hides the "messages" button at the top left of the screen when viewing a conversation. Only works if Enable Long Swipes is also ON. This is purely for aesthetics.
+Default:Off
+
+Update On Send:
+If On, this updates the list of conversations whenever you send a message. Which means after you send a message, you will be magically transported to the top of the list. If off, the list of conversations you swipe through will stay constant until you return to the conversation list.
+Default:Off
+
+Short Swipe Distance:
+"Points" are essentially pixel values. On non-Retina devices, this translates to exact pixels. On Retina devices, this should be doubled to equate pixels. All iPhones have a width of 320 points, regardless of screen size.
+Default:40
+
+Long Swipe Distance:
+Ditto for above.
+Default:220
+
+
+        </string>
+    </dict>
+
+
+    <dict>
+        <key>cell</key>
+        <string>PSStaticTextCell</string>
+        <key>isStaticText</key>
+        <true/>
+        <key>alignment</key>
+        <integer>1</integer>
+        <key>label</key>
+        <string>About:</string>
+
+    </dict>
+
+    </array>
+    <key>title</key>
+    <string>MessageSwiper</string>
+</dict>
+</plist>

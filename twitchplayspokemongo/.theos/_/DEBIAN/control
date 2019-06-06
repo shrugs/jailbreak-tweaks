@@ -1,0 +1,10 @@
+Package: com.shrugs.twitchplayspokemongo
+Name: twitchplayspokemongo
+Depends: mobilesubstrate, firmware (>= 9.0), kr.iolate.simulatetouch
+Architecture: iphoneos-arm
+Description: Twitch Plays Pokemon Go
+Maintainer: Shrugs (Matt Condon) <m@cond.in>
+Author: Shrugs (Matt Condon) <m@cond.in>
+Section: Tweaks
+Version: 0.0.1-97+debug
+Installed-Size: 248
